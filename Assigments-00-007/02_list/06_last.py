@@ -8,4 +8,10 @@ def get_last_element(lst):
     """
 
     print(lst[-1])
+def main():
+    
+    lastelment=get_last_element([1,2,3,4,5])
+    print(lastelment)
+if __name__ == '__main__':
+    main()    
     
