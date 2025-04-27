@@ -60,6 +60,8 @@ def main():
     if st.button("Convert"):
       result=convert_units(vlue,from_unit,to_unit)
 
-    st.write("The vlue of convert:",result," ",to_unit)
-main()
+    st.write("The vlue of convert:",result," ",to_unit) 
+if __name__ == "__main__":
+      main()       
+
   
