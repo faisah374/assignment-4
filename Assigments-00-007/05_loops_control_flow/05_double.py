@@ -1,11 +1,10 @@
-def double():
-    current_value=current_value*2
-    while current_value < 100:
-        print(current_value)
-        current_value = current_value * 2
-def main():
-    print(double(0))
-if  __name__ == '__main__':
-    main()          
-        
+         
+def double_number():
+        curr_value = int(input("Enter a number: "))
+        while curr_value < 100:
+            curr_value = curr_value * 2
+            print(curr_value)
+double_number()
+
+
 
