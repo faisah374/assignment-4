@@ -2,8 +2,14 @@
 
 Note that the user should type in a planet with the first letter as uppercase, and you do not need to handle the case where a user types in something other than one of the planets (that is not Earth)"""
 
-MERCURY_GRAVITY = 0.376 ,VENUS_GRAVITY = 0.889 ,MARS_GRAVITY = 0.378 ,JUPITER_GRAVITY = 2.36, 
-SATURN_GRAVITY = 1.081 ,URANUS_GRAVITY = 0.815 ,NEPTUNE_GRAVITY = 1.14 ,EARTH_GRAVITY = 1.0
+MERCURY_GRAVITY = 0.376
+VENUS_GRAVITY = 0.889 
+MARS_GRAVITY = 0.378 
+JUPITER_GRAVITY = 2.36 
+SATURN_GRAVITY = 1.081 
+URANUS_GRAVITY = 0.815 
+NEPTUNE_GRAVITY = 1.14 
+EARTH_GRAVITY = 1.0
 def main(): # Prompt the user for their weight on Earth 
  earth_weight = float(input("Enter a weight on Earth: "))
 
